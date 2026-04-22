@@ -1308,3 +1308,230 @@ a {
 .usecase-block p:last-child{
   margin-bottom:0;
 }
+
+/* CUSTOMIZATION */
+.custom-card{
+  background: rgba(255,255,255,.03);
+  border:1px solid rgba(255,255,255,.05);
+  border-radius:20px;
+  padding:28px;
+  transition:.3s ease;
+}
+
+.custom-card:hover{
+  transform:translateY(-6px);
+  border-color:rgba(0,191,255,.25);
+  box-shadow:0 14px 30px rgba(0,191,255,.08);
+}
+
+.custom-card i{
+  font-size:28px;
+  color:#00bfff;
+  margin-bottom:14px;
+  display:inline-block;
+}
+
+.custom-card h5{
+  color:#fff;
+  margin-bottom:12px;
+}
+
+.custom-card p{
+  color:#bfbfbf;
+  line-height:1.7;
+  margin:0;
+}
+
+.custom-note{
+  padding:24px;
+  border-radius:18px;
+  background:linear-gradient(135deg, rgba(0,191,255,.08), rgba(255,255,255,.02));
+  border:1px solid rgba(0,191,255,.14);
+}
+
+.custom-note p{
+  color:#d8d8d8;
+}
+
+/* ===============================
+   COMPETITORS SECTION
+=============================== */
+#competitors{
+  padding: 110px 0;
+}
+
+#competitors .content-box{
+  margin-top: 40px;
+}
+
+/* TOP BOX */
+.info-highlight{
+  padding: 28px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(0,191,255,.08), rgba(255,255,255,.02));
+  border: 1px solid rgba(0,191,255,.14);
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+.info-highlight h4{
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.info-highlight p{
+  color: #cfcfcf;
+  line-height: 1.8;
+}
+
+/* GRID BOX */
+.mini-box{
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.05);
+  border-radius: 20px;
+  padding: 28px;
+  transition: .35s ease;
+  height: 100%;
+}
+
+.mini-box:hover{
+  transform: translateY(-6px);
+  border-color: rgba(0,191,255,.25);
+  box-shadow: 0 14px 35px rgba(0,191,255,.08);
+}
+
+.mini-box h5{
+  color: #fff;
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+
+.mini-box p{
+  color: #bfbfbf;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* BOTTOM NOTE */
+.custom-note{
+  padding: 24px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(255,255,255,.05);
+}
+
+.custom-note p{
+  color: #d7d7d7;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+  #competitors{
+    padding: 80px 0;
+  }
+
+  .info-highlight,
+  .mini-box,
+  .custom-note{
+    padding: 22px;
+  }
+
+  .mini-box h5{
+    font-size: 17px;
+  }
+
+}
+
+/* ===============================
+   COMPLEMENTARY SECTION
+=============================== */
+#complementary{
+  padding: 110px 0;
+}
+
+#complementary .content-box{
+  margin-top: 40px;
+}
+
+/* TOP INFO BOX */
+#complementary .info-highlight{
+  padding: 28px;
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(0,191,255,.08), rgba(255,255,255,.02));
+  border: 1px solid rgba(0,191,255,.14);
+  box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+#complementary .info-highlight h4{
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+#complementary .info-highlight p{
+  color: #cfcfcf;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* CARD GRID */
+#complementary .mini-box{
+  background: rgba(255,255,255,.03);
+  border: 1px solid rgba(255,255,255,.05);
+  border-radius: 20px;
+  padding: 28px;
+  height: 100%;
+  transition: .35s ease;
+}
+
+#complementary .mini-box:hover{
+  transform: translateY(-6px);
+  border-color: rgba(0,191,255,.25);
+  box-shadow: 0 14px 35px rgba(0,191,255,.08);
+}
+
+#complementary .mini-box h5{
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+#complementary .mini-box p{
+  color: #bfbfbf;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* BOTTOM NOTE */
+#complementary .custom-note{
+  padding: 24px;
+  border-radius: 18px;
+  background: rgba(255,255,255,.02);
+  border: 1px solid rgba(255,255,255,.05);
+}
+
+#complementary .custom-note p{
+  color: #d7d7d7;
+  line-height: 1.8;
+  margin: 0;
+}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+  #complementary{
+    padding: 80px 0;
+  }
+
+  #complementary .info-highlight,
+  #complementary .mini-box,
+  #complementary .custom-note{
+    padding: 22px;
+  }
+
+  #complementary .mini-box h5{
+    font-size: 17px;
+  }
+
+}
