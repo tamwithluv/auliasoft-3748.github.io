@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>AuliaSoft Insight</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    :root{
+      --primary:#00bfff;
+      --dark:#0b0b0b;
+      --dark2:#111827;
+      --card:#181818;
+      --text:#ffffff;
+      --muted:#bfbfbf;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      margin:0;
+      font-family:system-ui,-apple-system,sans-serif;
+      background:linear-gradient(180deg,var(--dark),var(--dark2));
+      color:var(--text);
+    }
+
+    section{
+      padding:100px 0;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:60px;
+    }
+
+    .section-title span{
+      display:inline-block;
+      padding:8px 18px;
+      border-radius:50px;
+      font-size:14px;
+      color:var(--primary);
+      background:rgba(0,191,255,.08);
+      border:1px solid rgba(0,191,255,.2);
+    }
+
+    .section-title h2{
+      margin-top:18px;
+      font-weight:700;
+    }
+
+    .section-title p{
+      color:var(--muted);
+      max-width:700px;
+      margin:auto;
+      margin-top:12px;
+    }
+
+    .content-box{
+      background:rgba(255,255,255,.03);
+      border:1px solid rgba(255,255,255,.05);
+      border-radius:24px;
+      padding:40px;
+      box-shadow:0 20px 45px rgba(0,0,0,.25);
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+
+      <!-- Logo -->
+      <a href="#" class="navbar-brand d-flex align-items-center">
+        <img src="foto/auliasoftsoftware.png" alt="Logo" width="36" class="me-2" />
+        <span class="fw-bold">AuliaSoft POS</span>
+      </a>
+
+      <!-- Toggle -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menu -->
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Beranda</a></li>
+          <li class="nav-item"><a href="detail.html" class="nav-link">Detail Product</a></li>
+          <li class="nav-item"><a href="#product" class="nav-link">Keunggulan</a></li>
+          <li class="nav-item"><a href="#fitur" class="nav-link">Fitur</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+<!-- BUSINESS DOMAIN -->
+<section id="business-domain">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Business Domain</h2>
+      <p>Bidang industri dan segmen bisnis yang dilayani oleh AuliaSoft.</p>
+    </div>
+
+    <div class="content-box">
+
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <div class="mini-info-box h-100">
+            <i class="bi bi-shop"></i>
+            <h5>Retail & Toko Modern</h5>
+            <p>
+              AuliaSoft menyediakan sistem POS dan manajemen usaha untuk
+              toko kelontong, minimarket, toko pakaian, toko frozen food,
+              counter HP, hingga berbagai usaha retail lainnya.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="mini-info-box h-100">
+            <i class="bi bi-cup-hot"></i>
+            <h5>Kuliner & F&B</h5>
+            <p>
+              Mendukung operasional warung, cafe, restoran, dapur,
+              dan bisnis makanan dengan fitur kasir, pesanan,
+              stok bahan baku, serta laporan penjualan.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="mini-info-box h-100">
+            <i class="bi bi-bank"></i>
+            <h5>Koperasi & Keuangan</h5>
+            <p>
+              Menyediakan solusi digital untuk koperasi simpan pinjam,
+              koperasi karyawan, BMT, KSPPS, serta lembaga keuangan mikro
+              dengan sistem akuntansi dan transaksi terintegrasi.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="mini-info-box h-100">
+            <i class="bi bi-building"></i>
+            <h5>UMKM & Perusahaan</h5>
+            <p>
+              Cocok digunakan oleh pelaku UMKM, bisnis berkembang,
+              hingga perusahaan yang membutuhkan pengelolaan operasional,
+              keuangan, dan laporan usaha secara efisien.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="domain-note mt-5 text-center">
+        <p class="mb-0">
+          Secara umum, AuliaSoft bergerak di bidang
+          <strong>Business Software, POS System, ERP ringan, dan Digitalisasi Operasional Bisnis</strong>.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- USE CASES -->
+<section id="use-cases">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Use Cases</h2>
+      <p>Bagaimana AuliaSoft POS digunakan dalam operasional bisnis sehari-hari.</p>
+    </div>
+
+    <div class="content-box">
+
+      <!-- TEMPAT GAMBAR -->
+      <div class="usecase-image-box text-center mb-5">
+        <img src="foto/usecasepos.png" alt="Use Case Diagram AuliaSoft POS" class="img-fluid">
+      </div>
+
+      <!-- PENJELASAN -->
+      <div class="usecase-content">
+
+        <div class="usecase-block">
+          <h5><i class="bi bi-shop"></i> Operasional Toko & Kasir</h5>
+          <p>
+            Sistem ini dirancang untuk menghubungkan operasional toko fisik
+            dengan layanan e-commerce dalam satu platform terintegrasi.
+            Pada aktivitas harian, kasir menangani transaksi penjualan
+            kepada pelanggan serta transaksi pembelian stok barang.
+          </p>
+
+          <p>
+            Setiap transaksi penjualan terhubung langsung dengan sistem
+            pembayaran, sehingga kasir dapat memproses pembayaran tunai,
+            QRIS sebagai metode utama, serta kartu kredit sebagai opsi tambahan.
+            Kasir juga memiliki akses untuk memantau data produk agar informasi
+            barang tetap akurat sebelum menutup sesi kerja melalui logout.
+          </p>
+        </div>
+
+        <div class="usecase-block">
+          <h5><i class="bi bi-person-gear"></i> Administrasi & Manajemen</h5>
+          <p>
+            Pada level manajemen, admin memiliki kendali penuh terhadap
+            pengaturan sistem dan data pendukung operasional bisnis.
+            Admin mengelola data pengguna, manajemen karyawan,
+            serta hak akses dalam aplikasi.
+          </p>
+
+          <p>
+            Selain itu, admin bertanggung jawab mengatur sistem pembayaran,
+            menjaga hubungan pelanggan melalui CRM (Customer Relationship Management),
+            serta menjalankan program loyalitas untuk meningkatkan retensi pelanggan.
+          </p>
+        </div>
+
+        <div class="usecase-block">
+          <h5><i class="bi bi-bar-chart-line"></i> Pemilik Toko & Pengawasan</h5>
+          <p>
+            Pemilik toko berfokus pada strategi dan pengawasan bisnis.
+            Tugas utamanya meliputi pengelolaan data supplier,
+            data produk utama, serta pemantauan performa usaha.
+          </p>
+
+          <p>
+            Melalui laporan transaksi penjualan dan pembelian,
+            pemilik dapat menganalisis kondisi bisnis secara rutin
+            dan mengambil keputusan yang lebih tepat.
+          </p>
+        </div>
+
+        <div class="usecase-block">
+          <h5><i class="bi bi-bag-check"></i> Customer & E-Commerce</h5>
+          <p>
+            Dari sisi pengguna eksternal, customer berinteraksi
+            melalui modul e-commerce untuk melakukan pembelian mandiri.
+            Pelanggan dapat menjelajahi produk, menambahkan barang
+            ke keranjang, mengatur pesanan, lalu melakukan checkout.
+          </p>
+
+          <p>
+            Setelah pemesanan dibuat, pelanggan dapat melacak status pesanan
+            secara real-time. Sistem juga mengirimkan notifikasi otomatis
+            setiap ada pembaruan proses pesanan, sehingga informasi tetap
+            transparan hingga barang diterima pelanggan.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT ROADMAP -->
+<section id="product-roadmap">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>Product Roadmap</h2>
+      <p>Arah pengembangan fitur dan inovasi AuliaSoft untuk masa depan bisnis digital.</p>
+    </div>
+
+    <div class="content-box">
+
+      <div class="row g-4">
+
+        <!-- 1 -->
+        <div class="col-md-6">
+          <div class="roadmap-item">
+            <span class="roadmap-dot"></span>
+            <h5>Mobile Owner App</h5>
+            <p>
+              Aplikasi mobile khusus pemilik usaha untuk memantau penjualan,
+              stok, dan performa bisnis secara real-time dari mana saja.
+            </p>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-md-6">
+          <div class="roadmap-item">
+            <span class="roadmap-dot"></span>
+            <h5>Smart Analytics Dashboard</h5>
+            <p>
+              Dashboard analitik modern berisi tren penjualan,
+              produk terlaris, performa cabang, dan insight bisnis otomatis.
+            </p>
+          </div>
+        </div>
+
+        <!-- 5 -->
+        <div class="col-md-6">
+          <div class="roadmap-item">
+            <span class="roadmap-dot"></span>
+            <h5>Marketplace Integration</h5>
+            <p>
+              Sinkronisasi produk dan stok ke marketplace
+              serta penjualan online dalam satu dashboard.
+            </p>
+          </div>
+        </div>
+
+        <!-- 6 -->
+        <div class="col-md-6">
+          <div class="roadmap-item">
+            <span class="roadmap-dot"></span>
+            <h5>AI Business Assistant</h5>
+            <p>
+              Rekomendasi otomatis untuk stok, penjualan,
+              strategi promo, dan prediksi kebutuhan usaha.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="roadmap-note text-center mt-5">
+        <p class="mb-0">
+          Fokus utama roadmap AuliaSoft adalah
+          <strong>otomatisasi, integrasi, mobilitas, dan pertumbuhan bisnis pengguna.</strong>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 4 -->
+<section id="customization">
+  <div class="container">
+    <div class="section-title">
+      <span>04</span>
+      <h2>Customization</h2>
+      <p>Isi section nanti di sini.</p>
+    </div>
+    <div class="content-box"></div>
+  </div>
+</section>
+
+<!-- 5 -->
+<section id="competitors">
+  <div class="container">
+    <div class="section-title">
+      <span>05</span>
+      <h2>Competitors</h2>
+      <p>Isi section nanti di sini.</p>
+    </div>
+    <div class="content-box"></div>
+  </div>
+</section>
+
+<!-- 6 -->
+<section id="complementary">
+  <div class="container">
+    <div class="section-title">
+      <span>06</span>
+      <h2>Complementary</h2>
+      <p>Isi section nanti di sini.</p>
+    </div>
+    <div class="content-box"></div>
+  </div>
+</section>
+
+<!-- 7 -->
+<section id="processes-policies">
+  <div class="container">
+    <div class="section-title">
+      <span>07</span>
+      <h2>Processes & Policies</h2>
+      <p>Isi section nanti di sini.</p>
+    </div>
+    <div class="content-box"></div>
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
