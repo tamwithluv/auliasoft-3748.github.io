@@ -40,10 +40,8 @@
       <!-- Menu -->
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link active">Beranda</a></li>
-          <li class="nav-item"><a href="detail.html" class="nav-link">Detail Product</a></li>
-          <li class="nav-item"><a href="#product" class="nav-link">Keunggulan</a></li>
-          <li class="nav-item"><a href="#fitur" class="nav-link">Fitur</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link active">Menu</a></li>
+          <li class="nav-item"><a href="detail.html" class="nav-link">Product Knowledge</a></li>
         </ul>
       </div>
 
@@ -66,8 +64,8 @@
       </p>
 
       <div class="mt-4">
-        <a href="#product" class="btn btn-light px-4 me-2">
-          Mulai Sekarang
+        <a href="detail.html" class="btn btn-light px-4 me-2">
+          Pelajari Product Knowledgenya
         </a>
 
         <a href="#pricing" class="btn btn-outline-light px-4">
@@ -451,7 +449,6 @@
 <section id="pricing" class="pricing-section">
   <div class="container">
 
-    <!-- Heading -->
     <div class="text-center pricing-heading mx-auto mb-5">
       <span class="pricing-badge">Paket Harga</span>
       <h2 class="fw-bold mt-3">Paket Harga AuliaSoft POS</h2>
@@ -462,8 +459,42 @@
 
     <div class="row g-4">
 
+      <!-- UMKM -->
+      <div class="col-md-3">
+        <div class="price-card popular reveal">
+          <div class="ribbon">PROMO</div>
+
+          <h5>UMKM</h5>
+          <h3 class="price">Rp 50.000</h3>
+          <p class="desc">Paket hemat untuk usaha kecil</p>
+
+          <ul class="feature-preview">
+            <li><i class="bi bi-check-circle"></i> Single outlet</li>
+            <li><i class="bi bi-check-circle"></i> Toko Online</li>
+            <li><i class="bi bi-check-circle"></i> Kasir Online</li>
+            <li><i class="bi bi-check-circle"></i> Manajemen Stok</li>
+            <li><i class="bi bi-check-circle"></i> Laporan</li>
+            <li><i class="bi bi-exclamation-circle"></i> Maks. 500 item</li>
+          </ul>
+
+          <button class="btn btn-info w-100 mt-3"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#umkmDetail">
+            Lihat Selengkapnya
+          </button>
+
+          <div class="collapse mt-3" id="umkmDetail">
+            <ul class="feature-full">
+              <li><i class="bi bi-plus-circle"></i> CRM</li>
+              <li><i class="bi bi-plus-circle"></i> Manajemen Karyawan</li>
+              <li><i class="bi bi-plus-circle"></i> QRIS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <!-- BASIC -->
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="price-card reveal">
           <h5>BASIC</h5>
           <h3 class="price">Rp 149.999</h3>
@@ -494,7 +525,7 @@
       </div>
 
       <!-- STANDARD -->
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="price-card popular reveal">
           <div class="ribbon">BEST</div>
 
@@ -527,7 +558,7 @@
       </div>
 
       <!-- PREMIUM -->
-      <div class="col-md-4">
+      <div class="col-md-3">
         <div class="price-card reveal">
           <h5>PREMIUM</h5>
           <h3 class="price">Rp 749.999</h3>
@@ -567,119 +598,121 @@
 
     <!-- Heading -->
     <div class="text-center feature-heading mx-auto mb-5">
-      <span class="feature-badge">Fitur Lengkap</span>
-      <h2 class="fw-bold mt-3">Fitur Lengkap untuk Bisnis Anda</h2>
+      <span class="feature-badge">Fitur Utama</span>
+      <h2 class="fw-bold mt-3">Product Features Aulia e-POS</h2>
       <p class="mt-3 mb-0">
-        Semua kebutuhan operasional dalam satu sistem terintegrasi
+        Fitur inti untuk mendukung operasional bisnis secara terintegrasi
       </p>
     </div>
 
-    <!-- LIST -->
-    <div class="row g-3">
+    <div class="row g-4">
 
-      <!-- Kolom 1 -->
-      <div class="col-lg-4">
-
+      <!-- LOGIN -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-cart-check"></i><span>Penjualan</span></div>
-          <small>Proses transaksi cepat, mudah, dan tercatat otomatis.</small>
+          <img src="foto/login.png" class="img-fluid mb-3" alt="Login">
+          <div class="feature-title">
+            <i class="bi bi-box-arrow-in-right"></i>
+            <span>Login</span>
+          </div>
+          <small>Akses sistem dengan akun pengguna sesuai hak akses masing-masing.</small>
         </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-people"></i><span>Kelola Pengguna</span></div>
-          <small>Atur user, role, dan hak akses sesuai kebutuhan tim.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-box"></i><span>Produk</span></div>
-          <small>Kelola data produk, kategori, harga, dan variasi barang.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-fire"></i><span>Dapur</span></div>
-          <small>Monitoring pesanan masuk untuk operasional dapur.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-credit-card"></i><span>Akun Pembayaran</span></div>
-          <small>Kelola metode pembayaran tunai maupun non tunai.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-calendar-check"></i><span>Booking</span></div>
-          <small>Atur jadwal reservasi pelanggan dengan rapi.</small>
-        </div>
-
       </div>
 
-      <!-- Kolom 2 -->
-      <div class="col-lg-4">
-
+      <!-- STOK -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-cart-plus"></i><span>Pembelian</span></div>
-          <small>Catat pembelian barang dari supplier secara lengkap.</small>
+          <img src="foto/manajemenstok.png" class="img-fluid mb-3" alt="Stok">
+          <div class="feature-title">
+            <i class="bi bi-box"></i>
+            <span>Manajemen Stok</span>
+          </div>
+          <small>Mengelola data barang masuk, keluar, dan ketersediaan stok.</small>
         </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-bar-chart"></i><span>Laporan</span></div>
-          <small>Lihat performa bisnis dan omzet secara real-time.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-journal-text"></i><span>Akuntansi</span></div>
-          <small>Laporan keuangan tersusun rapi dan mudah dipahami.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-arrow-left-right"></i><span>Transfer Stok</span></div>
-          <small>Pindahkan stok antar cabang atau gudang.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-tools"></i><span>Perbaikan</span></div>
-          <small>Kelola layanan servis dan perbaikan pelanggan.</small>
-        </div>
-
-        <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-envelope"></i><span>Template Notifikasi</span></div>
-          <small>Buat pesan otomatis untuk pelanggan.</small>
-        </div>
-
       </div>
 
-      <!-- Kolom 3 -->
-      <div class="col-lg-4">
-
+      <!-- PEMBELIAN -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-person-lines-fill"></i><span>Kontak</span></div>
-          <small>Simpan data pelanggan dan supplier lebih teratur.</small>
+          <img src="foto/pembelian.png" class="img-fluid mb-3" alt="Pembelian">
+          <div class="feature-title">
+            <i class="bi bi-cart-plus"></i>
+            <span>Pembelian</span>
+          </div>
+          <small>Mencatat transaksi pembelian dari supplier dan update stok otomatis.</small>
         </div>
+      </div>
 
+      <!-- PENJUALAN -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-receipt"></i><span>Pesanan</span></div>
-          <small>Kelola order masuk agar lebih rapi dan cepat diproses.</small>
+          <img src="foto/penjualan.png" class="img-fluid mb-3" alt="Penjualan">
+          <div class="feature-title">
+            <i class="bi bi-cart-check"></i>
+            <span>Penjualan</span>
+          </div>
+          <small>Melakukan transaksi penjualan dengan proses cepat dan tercatat.</small>
         </div>
+      </div>
 
+      <!-- STOK OPNAME -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-building"></i><span>Produksi</span></div>
-          <small>Atur proses produksi dan bahan baku usaha.</small>
+          <img src="foto/opname.png" class="img-fluid mb-3" alt="Stok Opname">
+          <div class="feature-title">
+            <i class="bi bi-clipboard-check"></i>
+            <span>Stok Opname</span>
+          </div>
+          <small>Menyesuaikan data stok dengan kondisi fisik barang di lapangan.</small>
         </div>
+      </div>
 
+      <!-- LAPORAN STOK -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-sliders"></i><span>Penyesuaian Stok</span></div>
-          <small>Sesuaikan stok dengan kondisi fisik barang.</small>
+          <img src="foto/laporanstok.png" class="img-fluid mb-3" alt="Laporan Stok">
+          <div class="feature-title">
+            <i class="bi bi-bar-chart"></i>
+            <span>Laporan Stok</span>
+          </div>
+          <small>Menampilkan data persediaan barang secara lengkap dan real-time.</small>
         </div>
+      </div>
 
+      <!-- LAPORAN PEMBELIAN -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-cash"></i><span>Biaya</span></div>
-          <small>Catat seluruh pengeluaran operasional bisnis.</small>
+          <img src="foto/laporanpembelian.png" class="img-fluid mb-3" alt="Laporan Pembelian">
+          <div class="feature-title">
+            <i class="bi bi-receipt"></i>
+            <span>Laporan Pembelian</span>
+          </div>
+          <small>Menyajikan riwayat transaksi pembelian secara terstruktur.</small>
         </div>
+      </div>
 
+      <!-- LAPORAN PENJUALAN -->
+      <div class="col-md-4">
         <div class="feature-list-item">
-          <div class="feature-title"><i class="bi bi-gear"></i><span>Pengaturan</span></div>
-          <small>Sesuaikan sistem sesuai kebutuhan usaha Anda.</small>
+          <img src="foto/laporanpenjualan.png" class="img-fluid mb-3" alt="Laporan Penjualan">
+          <div class="feature-title">
+            <i class="bi bi-graph-up"></i>
+            <span>Laporan Penjualan</span>
+          </div>
+          <small>Menampilkan data penjualan untuk analisis performa bisnis.</small>
         </div>
+      </div>
 
+      <!-- LAPORAN KEUANGAN -->
+      <div class="col-md-4">
+        <div class="feature-list-item">
+          <img src="foto/laporanbiaya.png" class="img-fluid mb-3" alt="Laporan Keuangan">
+          <div class="feature-title">
+            <i class="bi bi-cash-stack"></i>
+            <span>Laporan Keuangan</span>
+          </div>
+          <small>Menyusun laporan keuangan untuk melihat kondisi usaha secara menyeluruh.</small>
+        </div>
       </div>
 
     </div>
@@ -874,7 +907,7 @@
 
 
 <!-- Kontak + CTA -->
-<section id="contact" class="contact-section">
+<section id="faq" class="faq-section">
   <div class="container">
 
     <div class="contact-box text-center mx-auto">
